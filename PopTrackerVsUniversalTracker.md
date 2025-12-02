@@ -8,7 +8,7 @@ vs
 <br>
 Universal Tracker's primary interface is a list of location names that are in-logic. An .apworld can optionally provide UT "map pages" that closely resemble a PopTracker pack, but most do not.
 
-PopTracker can't display anything for a world until someone makes a poptracker pack for it.
+PopTracker can't display anything for a world until someone makes a PopTracker pack for it.
 <br>
 vs
 <br>
@@ -45,8 +45,6 @@ Both UT and PopTracker:
 
 - PopTracker packs may have multiple "variants"
 
-- Universal Tracker has a list of in-logic location names in alphabetical order
-
 - PopTracker has item panels. In fact, some PopTracker packs (or variants) are just for items.
 
 - PopTracker has more options for how to handle event locations
@@ -74,3 +72,5 @@ PopTracker Discord Server: https://discord.gg/WqA9bqMK
 Universal Tracker channel on the AP Discord Server: https://discord.com/channels/731205301247803413/1367270230635839539
 <br>
 Universal Tracker world dev docs: https://github.com/FarisTheAncient/Archipelago/tree/tracker/worlds/tracker/docs
+<br>
+Universal Tracker "Integration Library"/examples thread: https://discord.com/channels/731205301247803413/1367996449270530080
