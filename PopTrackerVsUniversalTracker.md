@@ -56,10 +56,11 @@ Both UT and PopTracker:
 
 - Adding Universal Tracker map pages to an .apworld signficantly increases the .apworld's size. Some world devs even offer a map-less version of the .apworld for hosts that will only use it for generation and never see the map pages. In contrast, PopTracker packs are always separate from the corresponding .apworld.
 
+- Universal Tracker will show (in-logic) hinted locations in a different color automatically. PopTracker can show a glow around hinted locations if the pack dev writes the Lua for it.
+
 ### Help Wanted/Unknown:
 
 - PopTracker has scout/bounce handlers, what do these do?
-- does PopTracker have any features around AP hints? UT has some
 
 ### Docs/Support Links
 
