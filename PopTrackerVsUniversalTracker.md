@@ -68,10 +68,6 @@ Both UT and PopTracker:
 
 - When displaying a single square for mutiple locations, in PopTracker that square's tooltip can show a single text line and row of icons for a whole group of similar locations (often useful on "world map" pages), while Universal Tracker will always show one line of text per location.
 
-### Help Wanted/Unknown:
-
-- PopTracker has scout/bounce handlers, what do these do?
-
 ### Docs/Support Links
 
 PopTracker setup and user docs: https://github.com/black-sliver/PopTracker
