@@ -12,13 +12,19 @@ PopTracker can't display anything for a world until someone makes a PopTracker p
 <br>
 vs
 <br>
-Universal Tracker often just works on a new .apworld without the world dev doing any work to specifically support UT (unless/until that .apworld has logic options or logic-changing randomness)
+Universal Tracker often just works on a new .apworld without the world dev doing any work to specifically support UT (unless/until that .apworld has logic-changing randomness)
 
 PopTracker packs can be developed independently of the .apworld / world dev. In exchange, they require re-implementing all of the world's logic from scratch, so they can easily be wrong or go out of date after world updates.
 <br>
 vs
 <br>
 Universal Tracker reuses the .apworld's logic with minimal or no changes. In exchange, the quality of Universal Tracker support depends on the .apworld / world dev.
+
+PopTracker packs can only account for logic-changing options if the .apworld puts those options in slot_data and the pack reads them.
+<br>
+vs
+<br>
+Universal Tracker can also read logic-changing options from a player's .yaml file, in addition to (if the world dev does work to specifically support UT) reading them from slot_data if the .apworld puts them there.
 
 Universal Tracker's map pages are officially intended as a way to prototype PopTracker packs (although not all world devs use them that way). So in addition to the option of an .apworld containing all of its own map page data (what UT calls an "internal pack"), an .apworld can also be configured so that Universal Tracker will use an "external (PopTracker) pack" the user has already installed to display that world's map pages.
 
@@ -48,6 +54,8 @@ Both UT and PopTracker:
 - PopTracker has item panels. In fact, some PopTracker packs (or variants) are just for items.
 
 - PopTracker has more options for how to handle event locations
+
+- PopTracker packs can set a location to `Inspect`able (also called "scoutable"), default color blue, to indicate that the player is able to see the item in that location without actually checking the location and sending/receiving the item
 
 - PopTracker has more visual customization:
   - each "layout" (typically item panel, map panel, etc) can choose colors, alignments, margins, sizes, and even child layouts
