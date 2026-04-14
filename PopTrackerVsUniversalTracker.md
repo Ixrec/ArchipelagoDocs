@@ -20,11 +20,11 @@ vs
 <br>
 Universal Tracker reuses the .apworld's logic with minimal or no changes. In exchange, the quality of Universal Tracker support depends on the .apworld / world dev.
 
-PopTracker packs can only account for logic-changing options if the .apworld puts those options in slot_data and the pack reads them.
+PopTracker packs can handle logic-changing options via pack settings, which either the user manually toggles, or the .apworld puts those options in slot_data so the pack can read them from the AP server and auto-toggle the corresponding settings. Both approaches require work from the pack dev.
 <br>
 vs
 <br>
-Universal Tracker can also read logic-changing options from a player's .yaml file, in addition to (if the world dev does work to specifically support UT) reading them from slot_data if the .apworld puts them there.
+Universal Tracker can handle logic-changing options either by reading them from the player's .yaml file, or by the generator's .apworld putting those options in slot_data so the player's .apworld can later read them from the AP server. Only the latter approach requires work from the world dev.
 
 Universal Tracker's map pages are officially intended as a way to prototype PopTracker packs (although not all world devs use them that way). So in addition to the option of an .apworld containing all of its own map page data (what UT calls an "internal pack"), an .apworld can also be configured so that Universal Tracker will use an "external (PopTracker) pack" the user has already installed to display that world's map pages.
 
